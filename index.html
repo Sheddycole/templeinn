@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn - A Reverent Abode</title>
+    <meta
+      name="description"
+      content="Temple Inn - Homepage - Learn more about our rooms in various locations around the temples"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!-- fav -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/fav/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./images/fav/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="temple inn logo" />
+      <nav class="primary">
+        <button id="ham">&#9776;</button>
+        <ul id="menu" class="visuallyhidden">
+          <li><a id="home" href="#">Home</a></li>
+          <li><a id="temples" href="./temples.html">Temples</a></li>
+          <li>
+            <a id="reservation" href="./reservation.html">Reservations</a>
+          </li>
+          <li><a id="services" href="./services.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-container">
+          <div class="transhero">
+            <h1>A Reverent Abode</h1>
+            <h2>Even Outside The Temple</h2>
+            <p>
+              Mantain the same reverent moment from you experienced in the
+              temple in your place of reservations. We make sure to keep your
+              experience uplifting all through yours stay
+            </p>
+            <div class="hero-socials">
+              <a href="http://facebook.com" target="_blank"
+                ><img src="./images/fb-icon.png" alt="facebook"
+              /></a>
+              <a href="http://instagram.com" target="_blank"
+                ><img src="./images/insta-icon.png" alt="instagram"
+              /></a>
+            </div>
+          </div>
+          <div class="weather-container">
+            <div class="weather-today">
+              <div class="todays-date">
+                <h3 class="current-date">...</h3>
+                <h4 class="current-month">loading...</h4>
+              </div>
+              <span class="weather-underline"></span>
+              <div class="todays-temp">
+                <h4 class="current-temp">°c</h4>
+                <p class="todays-desc">loading...</p>
+                <p>Humidity: <span class="todays-hum">loading...</span></p>
+              </div>
+            </div>
+            <div class="weather-future">
+              <div class="next-day">
+                <h4>Tomorrow</h4>
+                <h5 class="tomorrows-temp">°c...</h5>
+                <p class="tomorrows-desc">loading...</p>
+                <p>Humidity: <span class="tomorrows-hum">loading...</span></p>
+              </div>
+              <div class="next-day">
+                <h4 class="in-two-days-name">...</h4>
+                <h5 class="in-two-days-temp">loading...</h5>
+                <p class="in-two-days-desc">loading...</p>
+                <p>Humidity: <span class="in-two-days-hum">loading...</span></p>
+              </div>
+              <div class="next-day">
+                <h4 class="in-three-days-name">...</h4>
+                <h5 class="in-three-days-temp">loading...</h5>
+                <p class="in-three-days-desc">loading...</p>
+                <p>
+                  Humidity: <span class="in-three-days-hum">loading...</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="select-temple">
+        <div class="selection-grid">
+          <div class="selection-info">
+            <h3>Aba Nigeria Temple</h3>
+            <p>
+              The Aba Nigeria Temple was the first temple built in Nigeria, the
+              second built in West Africa, and the third built in Africa
+            </p>
+            <p>~ Aba, Nigeria.</p>
+          </div>
+          <img src="./images/aba.jpg" alt="aba temple" />
+        </div>
+      </section>
+
+      <section class="temple-hero">
+        <div class="temple-trans-banner">
+          <h3>You Won’t Miss Home</h3>
+          <p>
+            With our well furnished rooms and basic free amenities, you won't
+            even have the feel of missin home, you stay will pass before you
+            even know it and with great experience
+          </p>
+          <a href="/templeinn/temples.html" class="make-reservation view-temps"
+            >View Temples</a
+          >
+        </div>
+      </section>
+
+      <section class="reserve-hero">
+        <div class="reserve-trans-banner">
+          <h3>A place like the temples</h3>
+          <p>
+            We make sure you to conseal your spiritual experience to 100% from
+            the time you arrive all through your stay. There is also provisions
+            for wedding receptions and all these is in grand style
+          </p>
+          <a href="/templeinn/reservation.html" class="make-reservation"
+            >Make Reservation</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-form">
+          <h3>Contact Us</h3>
+          <form action="./thankyou.html" method="get">
+            <label>
+              FULL-NAME <input type="text" name="fullname" required
+            /></label>
+            <label> E-MAIL <input type="email" name="email" required /></label>
+            <label>
+              YOUR MESSAGE
+              <textarea
+                name="contact-message"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+            </label>
+            <input
+              class="footer-form-button"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="footer-address-display">
+          <h3>Temple Inn & Suites</h3>
+          <div class="footer-socials">
+            <a href="http://facebook.com" target="_blank"
+              ><img src="./images/fb-icon.png" alt="facebook"
+            /></a>
+            <a href="http://instagram.com" target="_blank"
+              ><img src="./images/insta-icon.png" alt="instagram"
+            /></a>
+          </div>
+          <div class="footer-address">
+            <img src="./images/location-icon.png" alt="location" />
+            <p>
+              Temple Inn & Suites Headquarters 355 Wisconsin Avenue Bethesda, MD
+              20814
+            </p>
+          </div>
+          <div class="footer-phone">
+            <img src="./images/phone-icon.png" alt="phone" />
+            <p>215-529-9999</p>
+          </div>
+        </div>
+        <p class="copyright">
+          <span id="copyright-year"> ©2020 </span> | Ukeje Chinemerem Ofozie | WDD230
+        </p>
+        <p class="weather">
+          Weather source
+          <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+        </p>
+        <p class="weather">
+          <a href="./attribution.html">Attribution Page</a>
+        </p>
+      </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>
